@@ -1,0 +1,8 @@
+<p>home works!</p>
+<ul>
+    <li *ngFor="let article of articles$ |async " style="border: 1px solid black; padding:20px ; margin-bottom: 20px; list-style: none;">
+        {{article.title}}
+        <br>
+      <a href="">Read More</a>
+    </li>
+</ul>
